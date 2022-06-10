@@ -12,7 +12,7 @@ body{
 }
 
 #container {
-    background-color: #914eee;
+    background-color: #914eee87;
     margin-top: 100px;
     width: 80%;
     max-width: 400px;
@@ -53,7 +53,7 @@ input {
 button {
     border: none;
     
-    background-color: blueviolet;
+    background-color: rgb(108, 20, 208);
     color: white;
     transition: filter 0.5s;
 }
