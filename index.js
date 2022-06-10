@@ -29,10 +29,11 @@ function fazerPergunta() {
     return
   }
 
+  const pergunta = "<div>" + inputPergunta.value + "</div>"
 
   // gerar numero aleatorio
 const totalResposta = respostas.length
 const numeroAleatorio = Math.floor(Math.random() * totalResposta)
 
-respostaElement.innerHTML = respostas [numeroAleatorio]
+respostaElement.innerHTML = pergunta + respostas [numeroAleatorio]
 }
