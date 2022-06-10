@@ -3,8 +3,8 @@
 }
 
 body{
-    background-color: #e4bee6;
-    color: #29292e;
+    background-color: #dddada;
+    color: #ffffff;
     text-align: center;
     font-family: sans-serif;
     
@@ -12,14 +12,14 @@ body{
 }
 
 #container {
-    background-color: #914eee87;
+    background-color: #000000;
     margin-top: 100px;
     width: 80%;
     max-width: 400px;
     margin-inline: auto; 
 
-    border: 2px solid #8969b6 ;
-    box-shadow: 10px 10px 10px #6c33bb;
+    border: 2px solid #ffffff3a ;
+    box-shadow: 10px 10px 10px #000000bb;
     border-radius: 20px;
     padding: 30px;
 }
