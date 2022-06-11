@@ -36,4 +36,13 @@ const totalResposta = respostas.length
 const numeroAleatorio = Math.floor(Math.random() * totalResposta)
 
 respostaElement.innerHTML = pergunta + respostas [numeroAleatorio]
+
+
+
+//sumir a resposta
+setTimeout(function() {
+  respostaElement.style.opacity = 0;
+}, 3000)
+
+
 }
